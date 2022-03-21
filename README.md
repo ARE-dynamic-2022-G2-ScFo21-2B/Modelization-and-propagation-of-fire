@@ -4,7 +4,7 @@
 **Membres du groupe :**
 - Yanis **BAOUCHE** __(21107473)__
 - Rick **GAO** __(21110625)__
-- Lucas **CHIMIER** __21103839)__
+- Lucas **CHIMIER** __(21103839)__
 - Ronista **VICTOR MANOHARAN** __(28727387)__
 
 
