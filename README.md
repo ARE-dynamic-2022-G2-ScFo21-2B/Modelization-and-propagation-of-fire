@@ -1,4 +1,4 @@
-# ARE Dynamic : Propagation d'un feu de forêt
+# **ARE Dynamic : Propagation d'un feu de forêt**
 
 ## Introduction :
 
