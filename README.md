@@ -1,5 +1,13 @@
 # **ARE Dynamic : Propagation d'un feu de forêt**
 
+
+**Membres du groupe :**
+- Yanis **BAOUCHE** __(21107473)__
+- Rick **GAO** __(21110625)__
+- Lucas **CHIMIER** __21103839)__
+- Ronista **VICTOR MANOHARAN** __(28727387)__
+
+
 ## Introduction :
 
 ![Ceci est une image](https://upload.wikimedia.org/wikipedia/commons/d/d8/Deerfire_high_res_edit.jpg)
