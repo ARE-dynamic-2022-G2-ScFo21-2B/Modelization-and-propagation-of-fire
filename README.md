@@ -47,7 +47,8 @@ forêt.
 ### Librairies :
 
 - [**Pandas**](https://pandas.pydata.org/) : Pandas est une librairie Python permettant la manipulation et l'analyse de données.
-- [**Matplotlib**](https://matplotlib.org/) : Matplotlib est une librairie Python permettant de tracer et 
+- [**Matplotlib**](https://matplotlib.org/) : Matplotlib est une librairie Python permettant de tracer et visualiser des données avec des graphiques.
+- [**Numpy**](https://numpy.org/) : Numpy est une librairie Python permettant de faciliter la manipulation de matrices, de tableaux multidimensionels et des fonctions mathématiques.
 
 
 You can use the [editor on GitHub](https://github.com/ARE-dynamic-2022-G2-ScFo21-2B/Propagation_feu/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.Et plus précisément quels facteurs influent sur leur multiplication, leur intensité ou leur propagation. En effet, outre la prévention de ces feux, intervenir rapidement et efficacement est également synonyme de vies sauvées et de forêts préservées.
