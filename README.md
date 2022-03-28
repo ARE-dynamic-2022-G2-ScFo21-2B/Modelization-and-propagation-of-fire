@@ -57,6 +57,7 @@ forêt.
 - [**Pandas**](https://pandas.pydata.org/) : Pandas est une librairie Python permettant la manipulation et l'analyse de données.
 - [**Matplotlib**](https://matplotlib.org/) : Matplotlib est une librairie Python permettant de tracer et visualiser des données avec des graphiques.
 - [**Numpy**](https://numpy.org/) : Numpy est une librairie Python permettant de faciliter la manipulation de matrices, de tableaux multidimensionels et des fonctions mathématiques.
+- [**PythonGame**]
 
 ### Facteurs inflent sur la propagation d'un feu:
 
@@ -106,6 +107,7 @@ Syntax highlighted code block
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 ### Jekyll Themes
+PythonGame: https://youtu.be/LrcMOeUN1qI
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ARE-dynamic-2022-G2-ScFo21-2B/Propagation_feu/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
