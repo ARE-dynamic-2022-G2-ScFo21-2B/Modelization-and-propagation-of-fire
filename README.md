@@ -57,7 +57,7 @@ forêt.
 - [**Pandas**](https://pandas.pydata.org/) : Pandas est une librairie Python permettant la manipulation et l'analyse de données.
 - [**Matplotlib**](https://matplotlib.org/) : Matplotlib est une librairie Python permettant de tracer et visualiser des données avec des graphiques.
 - [**Numpy**](https://numpy.org/) : Numpy est une librairie Python permettant de faciliter la manipulation de matrices, de tableaux multidimensionels et des fonctions mathématiques.
-- [**PythonGame**]
+- [**PythonGame**] (https://www.pygame.org/): Pygame est un ensemble de modules Python conçus pour écrire des jeux vidéo.
 
 ### Facteurs inflent sur la propagation d'un feu:
 
