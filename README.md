@@ -29,8 +29,8 @@ c’est la modélisation informatique.
 ### Hypothèses :
 - Une forêt dense est plus favorable à une propagation rapide et
 totale du feu de forêt.
-- La propagation du feu influe en fonction de l’espèce des arbres.
-- Le comportement de la météo influe sur la propagation du feu de
+- L'humidité influe sur la propagation du feu.
+- Le vent influe sur la propagation du feu de
 forêt.
 
 
