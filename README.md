@@ -40,7 +40,7 @@ propagation et la direction de propagation du feu de forêt.
 Modéliser cette propagation. Interpréter les données de la
 modélisation.
 - Comparer les résultats des modélisations avec et sans influence
-de la météo, de la densité et de l’espèce des arbres.
+de la météo, de la densité et de l’humidité des arbres.
 - Interpréter graphiquement l’évolution du nombre d’arbres vivants,
 entrain de brûler et morts en fonction des paramètres.
 - Donner une argumentation quant à l’apparition des feux de forêts
