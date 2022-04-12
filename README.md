@@ -77,6 +77,9 @@ Alors que le vent aide à propager le feu, l'humidité agit contre le feu. L'hum
 Étant donné que l'humidité peut réduire les risques d'incendie de forêt, les précipitations ont un impact direct sur la prévention des incendies.
 
 
+### Bibliographie :
+
+
 ### Raisonnement et observation :
 
 
