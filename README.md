@@ -29,8 +29,8 @@ c’est la modélisation informatique.
 ### Hypothèses :
 - Une forêt dense est plus favorable à une propagation rapide et
 totale du feu de forêt.
-- La propagation du feu influe en fonction de l’espèce des arbres.
-- Le comportement de la météo influe sur la propagation du feu de
+- L'humidité influe sur la propagation du feu.
+- Le vent influe sur la propagation du feu de
 forêt.
 
 
@@ -40,7 +40,7 @@ propagation et la direction de propagation du feu de forêt.
 Modéliser cette propagation. Interpréter les données de la
 modélisation.
 - Comparer les résultats des modélisations avec et sans influence
-de la météo, de la densité et de l’espèce des arbres.
+de la météo, de la densité et de l’humidité des arbres.
 - Interpréter graphiquement l’évolution du nombre d’arbres vivants,
 entrain de brûler et morts en fonction des paramètres.
 - Donner une argumentation quant à l’apparition des feux de forêts
@@ -57,7 +57,7 @@ forêt.
 - [**Pandas**](https://pandas.pydata.org/) : Pandas est une librairie Python permettant la manipulation et l'analyse de données.
 - [**Matplotlib**](https://matplotlib.org/) : Matplotlib est une librairie Python permettant de tracer et visualiser des données avec des graphiques.
 - [**Numpy**](https://numpy.org/) : Numpy est une librairie Python permettant de faciliter la manipulation de matrices, de tableaux multidimensionels et des fonctions mathématiques.
-- [**PythonGame**]
+- PyGame: (https://www.pygame.org/): Pygame est un ensemble de modules Python conçus pour écrire des jeux vidéo.
 
 ### Facteurs inflent sur la propagation d'un feu:
 
