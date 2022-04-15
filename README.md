@@ -87,19 +87,33 @@ Alors que le vent aide à propager le feu, l'humidité agit contre le feu. L'hum
 - Pour rendre ce programme visible, nous avons utilisé les fonctions de Pygame pour modéliser cette propagation. Nous avons utilisé la bibliothèque Pygame plutôt que Tkinter ou Matplotlib pour des raisons d'efficacité et de simplicité.
 
 Densité : 90% d'arbre
+
 ![Propagation d'un feu de forêt](https://s7.gifyu.com/images/enregistrement-de-lecran-2022-04-15-a-181849-v1u5zifc_iKGJvaBP.gif)
 
 - A partir de ce modèle, nous avons essayé de créer des variantes dépendant de paramètre : densité, météo, ...
 
 - La variante dépendant de l'humidité se base sur le même principe que la modélisation précédente, la seule différence est l'ajout de probabilité lors de la propagation du feu. Pour chaque voisin, nous générons une probabilité en fonction du taux d'humidité (compris entre 0 et 1). Ainsi, plus le taux d'humidité est élevé, plus les probabilités de propager le feu aux voisins est faible.
 
-Humidité : 30% d'humidité
+Humidité : 30% d'humidité & 90% d'arbre
+
 ![Propagation d'un feu de forêt + Humidité](https://s7.gifyu.com/images/enregistrement-de-lecran-2022-04-15-a-184205-iqlvjjrh_8FlyrZkK.gif)
 
 - La variante dépendant de l'humidité se base sur le même principe que la modélisation précédente, la seule différence est l'ajout de probabilité lors de la propagation du feu. Ici, on va définit un unique sens (droite), la probabilité de propager le feu aux voisin du haut et du bas et de 0.5 (1 chance sur 2) tandis que la propabilité de propager le feu au voisin de gauche est de 10% (contre 90% pour le voisin de droite).
 
-Vent : vers la droite
+Vent : vers la droite & 90% d'arbre
+
 ![Propagation d'un feu de forêt + Vent](https://s7.gifyu.com/images/enregistrement-de-lecran-2022-04-15-a-185258-gmrxkyjx-rqgxjywc_hMuIZXZE.gif)
+
+- Ainsi, nous avons réussi à modéliser la propagation d'un feu de forêt en fonction de paramètres tels que la densité et la météo. Cependant, cela ne se base que sur le hasard.
+- Nous allons donc simuler la propagation sur un grand nombre d'expérience afin d'obtenir une moyenne.
+
+Simulation : 10 expériences, forêt de taille 10x10, 90% d'arbre
+
+![Simulation feu de forêt + Humidité](https://gcdnb.pbrd.co/images/maWlsNWkc7ww.png?o=1)
+
+Simulation : 10 expériences, forêt de taille 10x10
+
+![Simulation feu de forêt + Densité](https://gcdnb.pbrd.co/images/SYA26Es7VcpY.png?o=1)
 
 ### Interprétation :
 
