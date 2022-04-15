@@ -86,9 +86,20 @@ Alors que le vent aide à propager le feu, l'humidité agit contre le feu. L'hum
 - Pour propager un forêt, il nous a fallu programmer un "jeu de la vie" suivant un certain nombre de voisins. Pour déterminer le nombre de voisin, il existe deux types de voisinage : le voisinage de Von Neumann considère qu'un point possède 4 voisins (haut, bas, gauche, droite) tandis que le voisinage de Moore considère qu'un point en possède 8 (haut, bas, gauche, droite, ainsi que les diagonales). Dans notre cas, nous utilisons le voisinage de Von Neumann plutôt que le voisinage de Moore puisque cela illustre mieux la réalité.
 - Pour rendre ce programme visible, nous avons utilisé les fonctions de Pygame pour modéliser cette propagation. Nous avons utilisé la bibliothèque Pygame plutôt que Tkinter ou Matplotlib pour des raisons d'efficacité et de simplicité.
 
+Densité : 90% d'arbre
 ![Propagation d'un feu de forêt](https://s7.gifyu.com/images/enregistrement-de-lecran-2022-04-15-a-181849-v1u5zifc_iKGJvaBP.gif)
 
+- A partir de ce modèle, nous avons essayé de créer des variantes dépendant de paramètre : densité, météo, ...
 
+- La variante dépendant de l'humidité se base sur le même principe que la modélisation précédente, la seule différence est l'ajout de probabilité lors de la propagation du feu. Pour chaque voisin, nous générons une probabilité en fonction du taux d'humidité (compris entre 0 et 1). Ainsi, plus le taux d'humidité est élevé, plus les probabilités de propager le feu aux voisins est faible.
+
+Humidité : 30% d'humidité
+![Propagation d'un feu de forêt + Humidité](https://s7.gifyu.com/images/enregistrement-de-lecran-2022-04-15-a-184205-iqlvjjrh_8FlyrZkK.gif)
+
+- La variante dépendant de l'humidité se base sur le même principe que la modélisation précédente, la seule différence est l'ajout de probabilité lors de la propagation du feu. Ici, on va définit un unique sens (droite), la probabilité de propager le feu aux voisin du haut et du bas et de 0.5 (1 chance sur 2) tandis que la propabilité de propager le feu au voisin de gauche est de 10% (contre 90% pour le voisin de droite).
+
+Vent : vers la droite
+![Propagation d'un feu de forêt + Vent](https://s7.gifyu.com/images/enregistrement-de-lecran-2022-04-15-a-185258-gmrxkyjx-rqgxjywc_hMuIZXZE.gif)
 
 ### Interprétation :
 
