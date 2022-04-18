@@ -128,7 +128,7 @@ On observe une similarité dans les deux modèles, on peut en conclure que notre
 
 ![Propagation avec vent (Densité 100% Force 50% Proba 50%): ](https://s7.gifyu.com/images/Propagation_avec_vent.gif)
 
-On observe que les carrés rouges (représentants le feu), se propage maitenant de manière uniforme et beaucoup plus rapide.
+On observe que les carrés rouges (représentants le feu), se propagent maitenant de manière uniforme et beaucoup plus rapide. De plus, on peut observer que des carrés rouges apparaissent de l'autre coté de la fenêtre. Cela montre donc que le vent à une influence sur les départs de feux car le vent fait s'envoler des branches enflammés qui déclenche à leur tour des feux. 
 <br>
 
 ### Conclusion :
