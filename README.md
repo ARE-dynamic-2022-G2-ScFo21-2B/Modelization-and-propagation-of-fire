@@ -147,6 +147,7 @@ Pour prévenir ces incendies, nous pouvons par exemple :
 - Prévoir des distances de plantation entre les arbres
 - Placer des arrosoir automatique (dans les zones à risque)  permettant de garder l'environnement humide 
 - Planter des cyprès méditerranéens, des arbres résistants aux incendies
+- installer des caméras de détection précoces, sensibles aux ultraviolets du vide, une bande de fréquence spécifique émise uniquement par les incendies
 
 ### Markdown
 
