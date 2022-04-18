@@ -7,8 +7,9 @@
 - Lucas **CHIMIER** __(21103839)__
 - Ronista **VICTOR MANOHARAN** __(28727387)__
 
-
 ## Introduction :
+
+<br>
 
 ![Ceci est une image](https://upload.wikimedia.org/wikipedia/commons/d/d8/Deerfire_high_res_edit.jpg)
 
@@ -22,6 +23,7 @@ sauvées et de forêts préservées.
 l’influence de certains paramètres sur les feux et ainsi savoir lutter efficacement contre eux,
 c’est la modélisation informatique. 
 
+<br>
 
 ## **Problématique : L'augmentation des facteurs naturels dans le monde influence t-elle une propagation de feu de forêt ?**
 
@@ -30,7 +32,6 @@ c’est la modélisation informatique.
 - Une forêt dense est plus favorable à une propagation rapide et totale du feu de forêt.
 - L'humidité influe sur la propagation du feu.
 - Le vent influe sur la propagation du feu de forêt.
-
 
 ### Objectifs :
 - [X] Montrer que les facteurs météorologique influent sur la vitesse de propagation et la direction de propagation du feu de forêt.
@@ -48,6 +49,8 @@ Modéliser cette propagation. Interpréter les données de la modélisation.
 - [**Numpy**](https://numpy.org/) : Numpy est une librairie Python permettant de faciliter la manipulation de matrices, de tableaux multidimensionels et des fonctions mathématiques.
 - [**PyGame**](https://www.pygame.org/) : Pygame est un ensemble de modules Python conçus pour écrire des jeux vidéo.
 
+<br>
+
 ### Facteurs influençant la propagation d'un feu :
 
 **Le vent**:
@@ -64,6 +67,8 @@ La température affecte le déclenchement des incendies de forêt, car la chaleu
 
 Alors que le vent aide à propager le feu, l'humidité agit contre le feu. L'humidité (sous forme d'humidité ou de précipitations) peut ralentir un incendie et réduire son intensité. Les matériaux peuvent être difficiles à enflammer s'ils contiennent des niveaux élevés d'humidité, car l'humidité absorbe la chaleur d'un incendie. Plus l'humidité est élevée, moins le matériau risque de se dessécher et de s'enflammer.
 Étant donné que l'humidité peut réduire les risques d'incendie de forêt, les précipitations ont un impact direct sur la prévention des incendies.
+
+<br>
 
 ### Raisonnement et observation :
 - Nous avons commencé par trouver un algorithme permettant tout d'abord de modéliser la propagation d'un feu de forêt sans nécessairement avoir de paramètre. Pour cela, il nous a fallu commencé par les bases : modéliser une forêt par une liste de liste sur Python, créer une fonction permettant de mettre le feu à un arbre de la forêt, programmer une fonction de propagation, etc...
@@ -99,6 +104,8 @@ Simulation : 10 expériences, forêt de taille 10x10
 
 ![Simulation feu de forêt + Densité](https://gcdnb.pbrd.co/images/SYA26Es7VcpY.png?o=1)
 
+<br>
+
 ### Interprétation :
 
 Afin de tester la fiabilité de notre modèle nous l’avons comparé à un modèle déjà existant, celui du logiciel universitaire NetLogo.
@@ -118,6 +125,8 @@ On observe une similarité dans les deux modèles, on peut en conclure que notre
 
 ![Densite 60%](https://s7.gifyu.com/images/Enregistrement-de-lecran-2022-04-18-a-11.21.498d2aed5e250e6257.gif)
 
+<br>
+
 ### Conclusion :
 
 A partir de nos modélisations, nous avons pu constater que :
@@ -127,31 +136,31 @@ A partir de nos modélisations, nous avons pu constater que :
 
 **Par conséquent, nous pouvons conclure que l'augmentation des facteurs naturels influe sur la propagation d'un feu de forêt.**
 
-Bien qu’on est vu que la nature pouvait être la cause du déclenchement du feu de forêt et favoriser sa propagation. Un facteur humain, peut également déclencher des feux de forêt. 
+Bien qu’on ai vu que la nature pouvait être la cause du déclenchement du feu de forêt et favoriser sa propagation. Un facteur humain, peut également déclencher des feux de forêt. 
 
 
-Quelques règles à respecter pour éviter tous risque de feux de forêt : 
-- Ne faites ni feu ni barbecue aux abords des forêts et des espaces végétalisés.
-- Respecter les interdictions d’accès aux forêts en période de risques (sécheresse, vent fort…) ;
-- Bois de cheminée, peintures, fuel... n'entreposez pas de combustible contre la maison.
-- Ne fumez pas de cigarette en forêt, ou en pleine nature en période de sécheresse, et ne jetez pas votre mégot au sol ou par la fenêtre de la voiture.
-- Ne faites pas de travaux ou de petits bricolages sources d'étincelles (soudure, scie...) les jours de risque d'incendie (sécheresse, canicule, vent fort) à proximité de végétaux.
+**Pour prévenir ces incendies, nous pouvons par exemple :**
+- Placer des capteurs permettant de mesurer les différents facteurs naturels : humidité, température, vent, ... et informer en cas de variation anormale de ces derniers
+- Construire des bouches d'incendie près des forêts pour accélérer l'extinction du feu
+- Prévoir des distances de plantation entre les arbres
+- Placer des arrosoir automatique (dans les zones à risque) permettant ainsi de garder l'environnement humide 
+- Planter des cyprès méditerranéens, des arbres résistants aux incendies
 
 
-Comme dans tout autre cas d’urgence, la première chose à faire est :  
+**Quelques règles à respecter pour éviter tous risque de feux de forêt :** 
+
+- Ne pas faire de feu/barbecue près des forêts et des espaces végétalisés.
+- Respecter les interdictions d’accès aux forêts en période de risques (sécheresse, vent fort, …) 
+- Ne pas fumer de cigarette en forêt, ou en pleine nature en période de sécheresse, et ne pas jeter les mégots au sol ou par la fenêtre de la voiture.
+- Ne pas faire de travaux ou de petits bricolages provoquant des étincelles (soudure, scie, ...) durant les jours de risque d'incendie (sécheresse, canicule, vent fort) à proximité de végétaux.
+
+
+**Comme dans tout autre cas d’urgence, la première chose à faire est :**
 
 - Alerter les secours en composant le 18 ou le 112
 - Essayer de localiser le feu
 - Essayer d’éteindre le feu avec de la terre, du sable ou de l’eau sans se mettre en danger
 
-Pour prévenir ces incendies, nous pouvons par exemple :
-- Placer des capteurs permettant de mesurer les différents facteurs naturels : humidité, température, vent, ...
-- Informer en cas de variation anormale des facteurs naturels
-- Construire des bouches d'incendie près des forêts pour accélérer l'extinction du feu
-- Prévoir des distances de plantation entre les arbres
-- Placer des arrosoir automatique (dans les zones à risque)  permettant de garder l'environnement humide 
-- Planter des cyprès méditerranéens, des arbres résistants aux incendies
-- installer des caméras de détection précoces, sensibles aux ultraviolets du vide, une bande de fréquence spécifique émise uniquement par les incendies
 
 ### Markdown
 
