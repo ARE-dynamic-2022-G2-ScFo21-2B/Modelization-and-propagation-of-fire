@@ -10,7 +10,7 @@
 
 <br>
 
-<img src="https://qph.cf2.quoracdn.net/main-qimg-9beeb08dd2bbef7e953e276ba666417b" width=1010></img>
+<img src="https://qph.cf2.quoracdn.net/main-qimg-9beeb08dd2bbef7e953e276ba666417b" width=1010>
 
   Ces dernières années, le monde connaît de plus en plus de désastres naturels et
 notamment des [feux de forêts](https://en.wikipedia.org/wiki/Wildfire). Nous savons déjà que cette augmentation est liée au
