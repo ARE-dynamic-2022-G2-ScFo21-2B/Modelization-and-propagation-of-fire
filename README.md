@@ -122,9 +122,6 @@ Ici, on peut voir notre modèle pour une densité de 50%, et à droite celui dé
 
 On observe une similarité dans les deux modèles, on peut en conclure que notre modèle est cohérents avec la réalité. Ainsi, cela nous assure la fiabilité de notre modèle que nous pouvons donc exploiter pour étudier l’impact de différents facteurs naturels sur la propagation du feu de forêt
 
-![Densite 90%](https://gifyu.com/image/SLcF0)
-
-![Densite 60%](https://s7.gifyu.com/images/Enregistrement-de-lecran-2022-04-18-a-11.21.498d2aed5e250e6257.gif)
 
 <br>
 
