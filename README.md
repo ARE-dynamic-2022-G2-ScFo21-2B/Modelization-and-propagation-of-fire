@@ -78,38 +78,20 @@ Alors que le vent aide à propager le feu, l'humidité agit contre le feu. L'hum
 <br>
 
 ### Raisonnement et observation :
-- Nous avons commencé par trouver un algorithme permettant tout d'abord de modéliser la propagation d'un feu de forêt sans nécessairement avoir de paramètre. Pour cela, il nous a fallu commencé par les bases : modéliser une forêt par une liste de liste sur Python, créer une fonction permettant de mettre le feu à un arbre de la forêt, programmer une fonction de propagation, etc...
-- Pour propager un forêt, il nous a fallu programmer un "jeu de la vie" suivant un certain nombre de voisins. Pour déterminer le nombre de voisin, il existe deux types de voisinage : le voisinage de Von Neumann considère qu'un point possède 4 voisins (haut, bas, gauche, droite) tandis que le voisinage de Moore considère qu'un point en possède 8 (haut, bas, gauche, droite, ainsi que les diagonales). Dans notre cas, nous utilisons le voisinage de Von Neumann plutôt que le voisinage de Moore puisque cela illustre mieux la réalité.
-- Pour rendre ce programme visible, nous avons utilisé les fonctions de Pygame pour modéliser cette propagation. Nous avons utilisé la bibliothèque Pygame plutôt que Tkinter ou Matplotlib pour des raisons d'efficacité et de simplicité.
 
-Densité : 90% d'arbre
+Taille 100 Densité 50% Aléatoire 100% 10 Expériences
+![Taille 100 Densité 50% Aléatoire 100% 10 Expériences](https://user-images.githubusercontent.com/66788498/163839664-cc3cfd1a-a407-4a55-ad47-e9482adbc225.png)
 
-![Propagation d'un feu de forêt](https://s7.gifyu.com/images/enregistrement-de-lecran-2022-04-15-a-181849-v1u5zifc_iKGJvaBP.gif)
+Taille 100 Densité 50% Vent 60% Aléatoire 40% 10 Expériences
+![Taille 100 Densité 50% Vent 60% Aléatoire 40% 10 Expériences](https://user-images.githubusercontent.com/66788498/163839998-2d14214a-4510-4b02-99e7-7cc96319a480.png)
 
-- A partir de ce modèle, nous avons essayé de créer des variantes dépendant de paramètre : densité, météo, ...
+Taille 100 Densité 80% Aléatoire 100% 10 Expériences
+![Taille 100 Densité 80% Aléatoire 100% 10 Expériences](https://user-images.githubusercontent.com/66788498/163840203-faaee438-7c18-4844-8219-da44da3aa096.png)
 
-- La variante dépendant de l'humidité se base sur le même principe que la modélisation précédente, la seule différence est l'ajout de probabilité lors de la propagation du feu. Pour chaque voisin, nous générons une probabilité en fonction du taux d'humidité (compris entre 0 et 1). Ainsi, plus le taux d'humidité est élevé, plus les probabilités de propager le feu aux voisins est faible.
+Taille 100 Densité 80% Vent 60% Aléatoire 40% 10 Expériences
+![Taille 100 Densité 80% Vent 60% Aléatoire 40% 10 Expériences](https://user-images.githubusercontent.com/66788498/163840453-303d6361-ac9f-4fed-81d3-5a197a66f357.png)
 
-Humidité : 30% d'humidité & 90% d'arbre
 
-![Propagation d'un feu de forêt + Humidité](https://s7.gifyu.com/images/enregistrement-de-lecran-2022-04-15-a-184205-iqlvjjrh_8FlyrZkK.gif)
-
-- La variante dépendant de l'humidité se base sur le même principe que la modélisation précédente, la seule différence est l'ajout de probabilité lors de la propagation du feu. Ici, on va définit un unique sens (droite), la probabilité de propager le feu aux voisin du haut et du bas et de 0.5 (1 chance sur 2) tandis que la propabilité de propager le feu au voisin de gauche est de 10% (contre 90% pour le voisin de droite).
-
-Vent : vers la droite & 90% d'arbre
-
-![Propagation d'un feu de forêt + Vent](https://s7.gifyu.com/images/enregistrement-de-lecran-2022-04-15-a-185258-gmrxkyjx-rqgxjywc_hMuIZXZE.gif)
-
-- Ainsi, nous avons réussi à modéliser la propagation d'un feu de forêt en fonction de paramètres tels que la densité et la météo. Cependant, cela ne se base que sur le hasard.
-- Nous allons donc simuler la propagation sur un grand nombre d'expérience afin d'obtenir une moyenne.
-
-Simulation : 10 expériences, forêt de taille 10x10, 90% d'arbre
-
-![Simulation feu de forêt + Humidité](https://gcdnb.pbrd.co/images/maWlsNWkc7ww.png?o=1)
-
-Simulation : 10 expériences, forêt de taille 10x10
-
-![Simulation feu de forêt + Densité](https://gcdnb.pbrd.co/images/SYA26Es7VcpY.png?o=1)
 
 <br>
 
