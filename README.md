@@ -37,7 +37,7 @@ sauvées et de forêts préservées.
 Modéliser cette propagation. Interpréter les données de la modélisation.
 - [ ] Comparer les résultats des modélisations avec et sans influence de la météo, de la densité et de l’humidité des arbres.
 - [ ] Interpréter graphiquement l’évolution du nombre d’arbres vivants, entrain de brûler et morts en fonction des paramètres.
-- [ ] Donner une argumentation quant à l’apparition des feux de forêts et les facteurs favorisant la propagation du feu.
+- [X] Donner une argumentation quant à l’apparition des feux de forêts et les facteurs favorisant la propagation du feu.
 - [ ] A partir de la modélisation, comprendre l’origine de la multiplication des feux de forêt.
 - [X] Proposer des solutions permettant de réduire les feux de forêt.
 - [X] Proposer des outils permettant de prévenir l’apparition de feux de forêt.
@@ -154,7 +154,7 @@ On observe que les carrés rouges (représentants le feu), se propagent maitenan
 
 <br>
 
-**Interprétation quant à l'apparition des feux de forêts et les facteurs favorisant leur propagation:**
+**Interprétation quant à l'apparition des feux de forêts et les facteurs favorisant leur propagation :**
 
 <p align="justify">
 Les données fournis par notre modélisation ainsi que les graphiques du nombre d'arbres brulés selon le taux d'humidité, nous permettent de dire que de hautes températures, qui influencent la sécheresse des arbres, favorisent l'apparition de feux de forêts et entrainent une plus grande propagation de ceux-ci.
