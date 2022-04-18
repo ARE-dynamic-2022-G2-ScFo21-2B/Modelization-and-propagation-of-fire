@@ -101,6 +101,15 @@ Simulation : 10 expériences, forêt de taille 10x10
 
 ### Interprétation :
 
+Afin de tester la fiabilité de notre modèle nous l’avons comparé à un modèle déjà existant, celui du logiciel universitaire NetLogo.
+En effet, NetLogo est un logiciel Développé par l'université Northwestern (université américaine située à Evanston) et financé par la National Science Foundation. Il propose aux utilisateurs de créer des modélisations mais également d’utiliser des modèles fournis avec le logiciel et développé par des chercheurs, c’est ce que nous avons fait.
+Ici, on peut voir notre modèle pour une densité de 50%, et à droite celui développé de Netlogo :
+
+![Notre modèle :](https://gfycat.com/goldenobviousangelwingmussel)                                  ![Modèle NetLogo:] (https://gfycat.com/responsibleastonishinghare)
+
+
+On observe une similarité dans les deux modèles, on peut en conclure que les résultats sont cohérents. Ainsi, cela nous assure la fiabilité de notre modèle que nous pouvons donc exploiter pour étudier l’impact de différents facteurs naturels sur la propagation du feu de forêt
+
 ![Densite 90%](https://gifyu.com/image/SLcF0)
 
 ![Densite 60%](https://s7.gifyu.com/images/Enregistrement-de-lecran-2022-04-18-a-11.21.498d2aed5e250e6257.gif)
