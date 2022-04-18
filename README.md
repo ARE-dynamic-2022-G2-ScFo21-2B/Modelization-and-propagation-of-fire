@@ -158,6 +158,8 @@ On observe que les carrés rouges (représentants le feu), se propagent maitenan
 Les données fournis par notre modélisation ainsi que les graphiques du nombre d'arbres brulés selon le taux d'humidité, nous permettent de dire que de hautes températures, qui influencent la sécheresse des arbres, favorisent l'apparition de feux de forêts et entrainent une plus grande propagation de ceux-ci.
 </p>
   
+<br>
+
 ### Conclusion :
 
 A partir de nos modélisations, nous avons pu constater que :
