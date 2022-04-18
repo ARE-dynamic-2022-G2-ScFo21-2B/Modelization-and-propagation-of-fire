@@ -106,7 +106,10 @@ En effet, NetLogo est un logiciel Développé par l'université Northwestern (un
 
 Ici, on peut voir notre modèle pour une densité de 50%, et à droite celui développé par Netlogo :
 
-![Notre modèle :](https://s7.gifyu.com/images/enregistrement-de-lecran-2022-04-18-a-134402-oacu7rc4_h3dxcTpb.gif) ![Modèle de NetLogo:](https://s7.gifyu.com/images/NetLogo-fire-modele0646378e91d97588.gif)
+<p float="left" align="middle">
+  <img src="https://s7.gifyu.com/images/enregistrement-de-lecran-2022-04-18-a-134402-oacu7rc4_h3dxcTpb.gif" width="500" />
+  <img src="https://s7.gifyu.com/images/NetLogo-fire-modele0646378e91d97588.gif" width="500" /> 
+</p>
 
 
 On observe une similarité dans les deux modèles, on peut en conclure que notre modèle est cohérents avec la réalité. Ainsi, cela nous assure la fiabilité de notre modèle que nous pouvons donc exploiter pour étudier l’impact de différents facteurs naturels sur la propagation du feu de forêt
