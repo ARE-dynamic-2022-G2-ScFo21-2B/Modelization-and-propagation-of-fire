@@ -196,6 +196,7 @@ Bien qu’on ai vu que la nature pouvait être la cause du déclenchement du feu
 - Essayer de localiser le feu
 - Essayer d’éteindre le feu avec de la terre, du sable ou de l’eau sans se mettre en danger
 
+<br>
 
 ### Bibliographie :
 - Abibi, L. « Modélisation et simulation d’incendie de forêt par automate cellulaire ». Revue Marocaine des Sciences Agronomiques et Vétérinaires, vol. 1, no 2, 2013, p. 52‐63. https://www.agrimaroc.org/index.php/Actes_IAVH2/article/view/325
