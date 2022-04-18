@@ -136,7 +136,7 @@ Pour prévenir ces incendies, nous pouvons par exemple :
 - Informer en cas de variation anormale des facteurs naturels
 - Construire des bouches d'incendie près des forêts pour accélérer l'extinction du feu
 - Prévoir des distances de plantation entre les arbres
-- Placer des arrosoir automatique permettant de garder l'environnement humide  
+- Placer des arrosoir automatique (dans les zones à risque)  permettant de garder l'environnement humide  
 
 ### Markdown
 
