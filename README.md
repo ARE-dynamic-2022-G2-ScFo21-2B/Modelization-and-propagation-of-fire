@@ -114,7 +114,7 @@ Simulation : 10 expériences, forêt de taille 10x10
 
 ![Densite 90%](https://gifyu.com/image/SLcF0)
 
-![Densite 60%](https://s7.gifyu.com/images/Enregistrement-de-lecran-2022-04-18-a-11.21.49cacec400cf2dbff2.md.gif)
+![Densite 60%](https://s7.gifyu.com/images/Enregistrement-de-lecran-2022-04-18-a-11.21.498d2aed5e250e6257.gif)
 
 ### Conclusion :
 
