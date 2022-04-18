@@ -126,7 +126,7 @@ def draw(screen,data):
 
 <br>
 
-**Représentation graphique du nombre d'arbres restants et du nombre d'arbres brulés en fonction des étapes : **
+**Représentation graphique du nombre d'arbres restants et du nombre d'arbres brulés en fonction des étapes :**
 
 Taille 100, Densité 50%, 10 Expériences :
 - Sans paramètre (1)
