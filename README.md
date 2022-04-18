@@ -120,7 +120,7 @@ A partir de nos modélisations, nous avons pu constater que :
 - Plus le taux d'humidité est élevé, moins le feu de forêt se propage vite.
 - Plus le vent est fort, moins le feu de forêt se propage vite.
 
-Par conséquent, nous pouvons conclure que l'augmentation des facteurs naturels influe sur la propagation d'un feu de forêt.
+**Par conséquent, nous pouvons conclure que l'augmentation des facteurs naturels influe sur la propagation d'un feu de forêt.**
 
 Pour prévenir ces incendies, nous pouvons :
 - 
