@@ -104,7 +104,7 @@ Simulation : 10 expériences, forêt de taille 10x10
 Afin de tester la fiabilité de notre modèle nous l’avons comparé à un modèle déjà existant, celui du logiciel universitaire NetLogo.
 En effet, NetLogo est un logiciel Développé par l'université Northwestern (université américaine située à Evanston) et financé par la National Science Foundation. Il propose aux utilisateurs de créer des modélisations mais également d’utiliser des modèles fournis avec le logiciel et développé par des chercheurs, c’est ce que nous avons fait.
 
-Ici, on peut voir notre modèle pour une densité de 50%, et à droite celui développé de Netlogo :
+Ici, on peut voir notre modèle pour une densité de 50%, et à droite celui développé par Netlogo :
 
 ![Notre modèle :](https://s7.gifyu.com/images/enregistrement-de-lecran-2022-04-18-a-134402-oacu7rc4_h3dxcTpb.gif) ![Modèle de NetLogo:](https://s7.gifyu.com/images/NetLogo-fire-modele0646378e91d97588.gif)
 
