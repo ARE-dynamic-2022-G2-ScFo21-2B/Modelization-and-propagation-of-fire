@@ -81,13 +81,20 @@ Taille 100 Densité 50% Aléatoire 100% 10 Expériences
 ![Taille 100 Densité 50% Aléatoire 100% 10 Expériences](https://user-images.githubusercontent.com/66788498/163839664-cc3cfd1a-a407-4a55-ad47-e9482adbc225.png)
 
 Taille 100 Densité 50% Vent 60% Aléatoire 40% 10 Expériences
-![Taille 100 Densité 50% Vent 60% Aléatoire 40% 10 Expériences](https://user-images.githubusercontent.com/66788498/163839998-2d14214a-4510-4b02-99e7-7cc96319a480.png)
+![Taille 100 Densité 50% Vent 60% Aléatoire 40% 10 Expériences](https://user-images.githubusercontent.com/66788498/163865759-0bfa1bf7-6634-4e2f-bb19-dabc8a7c9f54.png)
+
+Taille 100 Densité 50% Humidité 60% Aléatoire 40% 10 Expériences
+![Taille 100 Densité 50% Humidité 60% Aléatoire 40% 10 Expériences](https://user-images.githubusercontent.com/66788498/163865902-0b84aaae-c87b-40f5-a31a-5338f10cf248.png)
 
 Taille 100 Densité 80% Aléatoire 100% 10 Expériences
 ![Taille 100 Densité 80% Aléatoire 100% 10 Expériences](https://user-images.githubusercontent.com/66788498/163840203-faaee438-7c18-4844-8219-da44da3aa096.png)
 
 Taille 100 Densité 80% Vent 60% Aléatoire 40% 10 Expériences
 ![Taille 100 Densité 80% Vent 60% Aléatoire 40% 10 Expériences](https://user-images.githubusercontent.com/66788498/163840453-303d6361-ac9f-4fed-81d3-5a197a66f357.png)
+
+Taille 100 Densité 80% Humidité 60% Aléatoire 40% 10 Expériences
+![Taille 100 Densité 80% Humidité 60% Aléatoire 40% 10 Expériences](https://user-images.githubusercontent.com/66788498/163866152-5a578be7-5323-4681-bce3-b376e120c4ee.png)
+
 
 ```py
 def create_database(x,y,p):
