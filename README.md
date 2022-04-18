@@ -82,9 +82,9 @@ Taille 100 Densité 50% 10 Expériences :
 - Force du vent à 60% (2)
 - Humidité à 60% (3)
 <p float="left" align="middle">
-  <img src="https://user-images.githubusercontent.com/66788498/163839664-cc3cfd1a-a407-4a55-ad47-e9482adbc225.png" width="300" />
+  <img src="https://user-images.githubusercontent.com/66788498/163839664-cc3cfd1a-a407-4a55-ad47-e9482adbc225.png" width="285" />
   <img src="https://user-images.githubusercontent.com/66788498/163865759-0bfa1bf7-6634-4e2f-bb19-dabc8a7c9f54.png" width="300" />
-  <img src="https://user-images.githubusercontent.com/66788498/163865902-0b84aaae-c87b-40f5-a31a-5338f10cf248.png" width="300" /> 
+  <img src="https://user-images.githubusercontent.com/66788498/163865902-0b84aaae-c87b-40f5-a31a-5338f10cf248.png" width="285" /> 
 </p>
 
 Taille 100 Densité 80% 10 Expériences :
@@ -92,41 +92,11 @@ Taille 100 Densité 80% 10 Expériences :
 - Force du vent à 60% (2)
 - Humidité à 60% (3)
 <p float="left" align="middle">
-  <img src="https://user-images.githubusercontent.com/66788498/163840203-faaee438-7c18-4844-8219-da44da3aa096.png" width="300" />
-  <img src="https://user-images.githubusercontent.com/66788498/163840453-303d6361-ac9f-4fed-81d3-5a197a66f357.png" width="300" />
-  <img src="https://user-images.githubusercontent.com/66788498/163866152-5a578be7-5323-4681-bce3-b376e120c4ee.png" width="300" /> 
+  <img src="https://user-images.githubusercontent.com/66788498/163840203-faaee438-7c18-4844-8219-da44da3aa096.png" width="285" />
+  <img src="https://user-images.githubusercontent.com/66788498/163840453-303d6361-ac9f-4fed-81d3-5a197a66f357.png" width="292" />
+  <img src="https://user-images.githubusercontent.com/66788498/163866152-5a578be7-5323-4681-bce3-b376e120c4ee.png" width="310" /> 
 </p>
 
-
-```py
-def create_database(x,y,p):
-    return np.random.choice([0,1],size=(x,y),p=[1-p,p]) #Créer une liste de liste de 1 et 0
-```
-
-```py
-def draw(screen,data):
-    x=0 #Initialise le point de départ en haut à gauche
-    y=0
-    unit=500/len(data) #Initialise le pas entre chaque case
-    for i in range(len(data)): #Pour chaque ligne
-        for j in range(len(data[0])): #Pour chaque colonne
-            if(data[i][j]==1): #Si la case est un arbre
-                pygame.draw.rect(screen,(71, 252, 80), pygame.Rect(x, y, x+unit, y+unit)) #Afficher une case verte
-                x+=unit
-            if(data[i][j]==0): #Si la case est de la terre
-                pygame.draw.rect(screen,(247, 213, 143), pygame.Rect(x, y, x+unit, y+unit)) #Afficher une case grise
-                x+=unit  
-            if(data[i][j]==2): #Si la case est un arbre en feu
-                pygame.draw.rect(screen,(255, 64, 67), pygame.Rect(x, y, x+unit, y+unit)) #Afficher une case rouge
-                x+=unit
-            if(data[i][j]==3): #Si la case est un arbre brulé
-                pygame.draw.rect(screen,(33, 13, 4), pygame.Rect(x, y, x+unit, y+unit)) #Afficher une case noire
-                x+=unit
-        y+=unit
-        x=0
-
-    pygame.display.flip() #Mettre-à-jour la fenêtre
-```
 
 <br>
 
