@@ -173,7 +173,6 @@ A partir de nos modélisations, nous avons pu constater que :
 
 Bien qu’on ai vu que la nature pouvait être la cause du déclenchement du feu de forêt et favoriser sa propagation. Un facteur humain, peut également déclencher des feux de forêt. 
 
-
 **Pour prévenir ces incendies, nous pouvons par exemple :**
 - Placer des capteurs permettant de mesurer les différents facteurs naturels : humidité, température, vent, ... et informer en cas de variation anormale de ces derniers
 - Construire des bouches d'incendie près des forêts pour accélérer l'extinction du feu
@@ -181,6 +180,9 @@ Bien qu’on ai vu que la nature pouvait être la cause du déclenchement du feu
 - Placer des arrosoir automatique (dans les zones à risque) permettant ainsi de garder l'environnement humide 
 - Planter des cyprès méditerranéens, des arbres résistants aux incendies
 
+<br>
+
+### Annexes :
 
 **Quelques règles à respecter pour éviter tous risque de feux de forêt :** 
 
