@@ -12,8 +12,9 @@
 
 <img src="https://qph.cf2.quoracdn.net/main-qimg-9beeb08dd2bbef7e953e276ba666417b" width=1010>
 <p align="justify">
-  Ces dernières années, le monde connaît de plus en plus de désastres naturels et notamment des <a href="https://en.wikipedia.org/wiki/Wildfire" target="_BLANK">feux de forêts</a>. Nous savons déjà que cette augmentation est liée au réchauffement climatique, mais nous voulons savoir comment. Et plus précisément quels facteurs influent sur leur multiplication, leur intensité ou leur propagation. En effet, outre la prévention de ces feux, intervenir rapidement et efficacement est également synonyme de vies sauvées et de forêts préservées. 
-
+  Ces dernières années, le monde connaît de plus en plus de désastres naturels et notamment des <a href="https://en.wikipedia.org/wiki/Wildfire" target="_blank">feux de forêts</a>. Nous savons déjà que cette augmentation est liée au réchauffement climatique, mais nous voulons savoir comment. Et plus précisément quels facteurs influent sur leur multiplication, leur intensité ou leur propagation. En effet, outre la prévention de ces feux, intervenir rapidement et efficacement est également synonyme de vies sauvées et de forêts préservées. 
+</p>
+<p align="justify">
 Pour cela, nous disposons d’un outil efficace et fiable qui pourrait nous permettre de modéliser et connaître l’influence de certains paramètres sur les feux et ainsi savoir lutter efficacement contre eux, c’est la modélisation informatique. 
 </p>
   
