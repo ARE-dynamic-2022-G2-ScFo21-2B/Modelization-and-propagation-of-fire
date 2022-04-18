@@ -77,6 +77,16 @@ Alors que le vent aide à propager le feu, l'humidité agit contre le feu. L'hum
 
 ### Raisonnement et observation :
 
+Pour modéliser notre forêt, nous allons considérer une forêt comme étant une liste de liste où chaque élément possédera des coordonnées (x,y)
+Nous allons utiliser la fonction random.choice de la bibliothèque Numpy pour créer une matrice contenant que des 0 et des 1 en fonction de la probabilité (ici densité)
+
+```py
+def create_database(x,y,p):
+    return np.random.choice([0,1],size=(x,y),p=[1-p,p]) #Créer une liste de liste de 1 et 0
+```
+
+<br>
+
 <p float="left" align="justify">
 Pour programmer le vent, nous avons essayé que le feu se propage de la façon présente sur le schéma ci-dessous. Nous avons fait une seule direction de vent car comme la forêt est tirée aléatoirement, il n'y a pas de réel intérêt à faire plusieurs possibilités de directions. Nous avons donc choisit la direction de "haut en bas" sur l'animation. Nous avons donc ajouté un coefficient lié au vent à chaque case voisine de l'arbre en feu. Ainsi, plus le vent est élevé, plus la probabilité de brûler les arbres en sens inverse au vent est faible. De plus la probabilité de brûler les arbres voisins dans le sens du vent est augmenté. Le vent 3/4 face et 3/4  dos est aussi prit en compte. Enfin, nous avons ajouté la possibilité qu'un arbre qui brûle peut brûler un arbre situé à deux cases dans le sens du vent. En effet, dans la vraie vie, le vent peut pousser les braises et ainsi enflammer des arbres plus éloignés !
 </p>
@@ -87,7 +97,37 @@ Pour programmer l'humidité nous nous sommes aidé du graphique ci-joint. En eff
 </p>
 <p align="middle"><img src="https://user-images.githubusercontent.com/66788498/163872701-2347d5d2-2878-41ab-97b8-339f014b4fce.png" width="300"></p>
 
+
+Pour animer ces étapes, nous avons programmer une fonction permettant d'ouvrir une fenêtre Pygame et de mettre-à-jour cette fenêtre en vérifiant le numéro associé au point de coordonnées (x,y)
+
+```py
+def draw(screen,data):
+    x=0 #Initialise le point de départ en haut à gauche
+    y=0
+    unit=500/len(data) #Initialise le pas entre chaque case
+    for i in range(len(data)): #Pour chaque ligne
+        for j in range(len(data[0])): #Pour chaque colonne
+            if(data[i][j]==1): #Si la case est un arbre
+                pygame.draw.rect(screen,(71, 252, 80), pygame.Rect(x, y, x+unit, y+unit)) #Afficher une case verte
+                x+=unit
+            if(data[i][j]==0): #Si la case est de la terre
+                pygame.draw.rect(screen,(247, 213, 143), pygame.Rect(x, y, x+unit, y+unit)) #Afficher une case grise
+                x+=unit  
+            if(data[i][j]==2): #Si la case est un arbre en feu
+                pygame.draw.rect(screen,(255, 64, 67), pygame.Rect(x, y, x+unit, y+unit)) #Afficher une case rouge
+                x+=unit
+            if(data[i][j]==3): #Si la case est un arbre brulé
+                pygame.draw.rect(screen,(33, 13, 4), pygame.Rect(x, y, x+unit, y+unit)) #Afficher une case noire
+                x+=unit
+        y+=unit
+        x=0
+
+    pygame.display.flip() #Mettre-à-jour la fenêtre
+```
+
 <br>
+
+**Représentation graphique du nombre d'arbres restants et du nombre d'arbres brulés en fonction des étapes : **
 
 Taille 100, Densité 50%, 10 Expériences :
 - Sans paramètre (1)
