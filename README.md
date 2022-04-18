@@ -20,10 +20,10 @@ réchauffement climatique, mais nous voulons savoir comment. Et plus préciséme
 propagation. En effet, outre la prévention de ces feux, intervenir rapidement et efficacement est également synonyme de vies 
 sauvées et de forêts préservées. 
 
- Pour cela, nous disposons d’un outil efficace et fiable qui pourrait nous permettre de modéliser et connaître
-l’influence de certains paramètres sur les feux et ainsi savoir lutter efficacement contre eux,
-c’est la modélisation informatique. 
-
+<p align="justify">
+ Pour cela, nous disposons d’un outil efficace et fiable qui pourrait nous permettre de modéliser et connaître l’influence de certains paramètres sur les feux et ainsi savoir lutter efficacement contre eux, c’est la modélisation informatique. 
+</p>
+  
 <br>
 
 ## **Problématique : L'augmentation des facteurs naturels dans le monde influence t-elle une propagation de feu de forêt ?**
@@ -56,19 +56,25 @@ Modéliser cette propagation. Interpréter les données de la modélisation.
 
 **Le vent**:
 
+<p align="justify">
 Les vents ont peut-être la plus grande influence sur le comportement des feux de forêt et sont également le facteur le plus imprévisible. Le vent alimente le feu en oxygène supplémentaire, séchant davantage les matériaux et poussant le feu à travers la terre à un rythme plus rapide.
 
 Les vents affectent non seulement la façon dont un incendie se déclare mais aussi comment il se propage. Plus le vent souffle fort, plus le feu se propage rapidement. Les vents peuvent également changer la direction du feu.
+</p>
 
 **La température**:
 
+<p align="justify">
 La température affecte le déclenchement des incendies de forêt, car la chaleur est l'un des trois coins du triangle du feu (combustible, comburant, chaleur) .Les restes d'arbres et de plantes au sol reçoivent la chaleur du soleil, qui chauffe et sèche les matériaux. Des températures plus chaudes permettent au carburant de s'enflammer et de brûler plus rapidement, ce qui augmente le taux d'incendies de forêt. 
-
+</p>
+  
 **Humidité**:
 
+<p align="justify">
 Alors que le vent aide à propager le feu, l'humidité agit contre le feu. L'humidité (sous forme d'humidité ou de précipitations) peut ralentir un incendie et réduire son intensité. Les matériaux peuvent être difficiles à enflammer s'ils contiennent des niveaux élevés d'humidité, car l'humidité absorbe la chaleur d'un incendie. Plus l'humidité est élevée, moins le matériau risque de se dessécher et de s'enflammer.
 Étant donné que l'humidité peut réduire les risques d'incendie de forêt, les précipitations ont un impact direct sur la prévention des incendies.
-
+</p>
+  
 <br>
 
 ### Raisonnement et observation :
@@ -110,17 +116,21 @@ Simulation : 10 expériences, forêt de taille 10x10
 ### Interprétation :
 **Fiabilité de l'interprétation:**
 
+<p align="justify">
 Afin de tester la fiabilité de notre modèle nous l’avons comparé à un modèle déjà existant, celui du logiciel universitaire NetLogo.
 En effet, NetLogo est un logiciel Développé par l'université Northwestern (université américaine située à Evanston) et financé par la National Science Foundation. Il propose aux utilisateurs de créer des modélisations mais également d’utiliser des modèles fournis avec le logiciel et développé par des chercheurs, c’est ce que nous avons fait.
 
 Ici, on peut voir notre modèle pour une densité de 50%, et à droite celui développé par Netlogo :
-
+</p>
+  
 <p float="left" align="middle">
   <img src="https://s7.gifyu.com/images/enregistrement-de-lecran-2022-04-18-a-134402-oacu7rc4_h3dxcTpb.gif" width="400" />
   <img src="https://s7.gifyu.com/images/NetLogo-fire-modele0646378e91d97588.gif" width="400" /> 
 </p>
 
+<p align="justify">
 On observe une similarité dans les deux modèles, on peut en conclure que notre modèle est cohérents avec la réalité. Ainsi, cela nous assure la fiabilité de notre modèle que nous pouvons donc exploiter pour étudier l’impact de différents facteurs naturels sur la propagation du feu de forêt
+</p>
 
 
 **Egalement, on peut visualiser la modélisation avec l'influence du vent:**
@@ -128,7 +138,10 @@ On observe une similarité dans les deux modèles, on peut en conclure que notre
 
 ![Propagation avec vent (Densité 100% Force 50% Proba 50%): ](https://s7.gifyu.com/images/Propagation_avec_vent.gif)
 
+<p align="justify">
 On observe que les carrés rouges (représentants le feu), se propagent maitenant de manière uniforme et beaucoup plus rapide. De plus, on peut observer que des carrés rouges apparaissent de l'autre coté de la fenêtre. Cela montre donc que le vent à une influence sur les départs de feux car le vent fait s'envoler des branches enflammés qui déclenche à leur tour des feux. De plus, il joue un rôle dans la vitesse de propagation du feux, qui est multiplié avec celui-ci.
+</p>
+
 <br>
 
 ### Conclusion :
