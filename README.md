@@ -143,8 +143,10 @@ On observe une similarité dans les deux modèles, on peut en conclure que notre
 
 **Egalement, on peut visualiser la modélisation avec l'influence du vent:**
 
-
-![Propagation avec vent (Densité 100% Force 50% Proba 50%): ](https://s7.gifyu.com/images/Propagation_avec_vent.gif)
+<p align="middle">Propagation avec vent (Densité 100% Force 50% Proba 50%) :</p>
+<p align="middle">
+  <img src="https://s7.gifyu.com/images/Propagation_avec_vent.gif" width="400"/> 
+</p>
 
 <p align="justify">
 On observe que les carrés rouges (représentants le feu), se propagent maitenant de manière uniforme et beaucoup plus rapide. De plus, on peut observer que des carrés rouges apparaissent de l'autre coté de la fenêtre. Cela montre donc que le vent à une influence sur les départs de feux car le vent fait s'envoler des branches enflammés qui déclenche à leur tour des feux. De plus, il joue un rôle dans la vitesse de propagation du feux, qui est multiplié avec celui-ci.
