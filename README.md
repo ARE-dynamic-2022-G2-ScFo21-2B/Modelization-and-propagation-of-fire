@@ -144,6 +144,10 @@ On observe que les carrés rouges (représentants le feu), se propagent maitenan
 
 <br>
 
+**Interprétation quant à l'apparition des feux de forêts et les facteurs favorisant leur propagation:**
+
+-Les données fournis par notre modélisation nous permettent de dire que de hautes températures, qui influencent la sécheresse des arbres, favorisent l'apparition de feux de forêts et entrainent une plus grande propagation de ceux-ci.
+
 ### Conclusion :
 
 A partir de nos modélisations, nous avons pu constater que :
