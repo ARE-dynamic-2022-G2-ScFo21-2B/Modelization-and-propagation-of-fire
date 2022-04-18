@@ -35,20 +35,20 @@ forêt.
 
 
 ### Objectifs :
-- Montrer que les facteurs météorologique influent sur la vitesse de
+- [X] Montrer que les facteurs météorologique influent sur la vitesse de
 propagation et la direction de propagation du feu de forêt.
 Modéliser cette propagation. Interpréter les données de la
 modélisation.
-- Comparer les résultats des modélisations avec et sans influence
+- [ ] Comparer les résultats des modélisations avec et sans influence
 de la météo, de la densité et de l’humidité des arbres.
-- Interpréter graphiquement l’évolution du nombre d’arbres vivants,
+- [ ] Interpréter graphiquement l’évolution du nombre d’arbres vivants,
 entrain de brûler et morts en fonction des paramètres.
-- Donner une argumentation quant à l’apparition des feux de forêts
+- [ ] Donner une argumentation quant à l’apparition des feux de forêts
 et les facteurs favorisant la propagation du feu.
-- A partir de la modélisation, comprendre l’origine de la
+- [ ] A partir de la modélisation, comprendre l’origine de la
 multiplication des feux de forêt.
-- Proposer des solutions permettant de réduire les feux de forêt.
-- Proposer des outils permettant de prévenir l’apparition de feux de
+- [ ] Proposer des solutions permettant de réduire les feux de forêt.
+- [ ] Proposer des outils permettant de prévenir l’apparition de feux de
 forêt.
 
 
