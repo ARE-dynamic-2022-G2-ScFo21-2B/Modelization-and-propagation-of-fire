@@ -108,7 +108,7 @@ Simulation : 10 expériences, forêt de taille 10x10
 <br>
 
 ### Interprétation :
-### Fiabilité:
+**Fiabilité de l'interprétation:**
 
 Afin de tester la fiabilité de notre modèle nous l’avons comparé à un modèle déjà existant, celui du logiciel universitaire NetLogo.
 En effet, NetLogo est un logiciel Développé par l'université Northwestern (université américaine située à Evanston) et financé par la National Science Foundation. Il propose aux utilisateurs de créer des modélisations mais également d’utiliser des modèles fournis avec le logiciel et développé par des chercheurs, c’est ce que nous avons fait.
@@ -122,7 +122,10 @@ Ici, on peut voir notre modèle pour une densité de 50%, et à droite celui dé
 
 On observe une similarité dans les deux modèles, on peut en conclure que notre modèle est cohérents avec la réalité. Ainsi, cela nous assure la fiabilité de notre modèle que nous pouvons donc exploiter pour étudier l’impact de différents facteurs naturels sur la propagation du feu de forêt
 
-Egalement, on peut visualiser la modélisation avec l'influence du vent:
+
+**Egalement, on peut visualiser la modélisation avec l'influence du vent:**
+
+
 ![Propagation avec vent (Densité 100% Force 50% Proba 50%): ](https://s7.gifyu.com/images/Propagation_avec_vent.gif)
 
 On observe que les carrés rouges (représentants le feu), se propage maitenant de manière uniforme et beaucoup plus rapide.
