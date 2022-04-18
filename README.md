@@ -147,5 +147,6 @@ Syntax highlighted code block
 ```
 
 ### Bibliographie :
-- https://www.agrimaroc.org/index.php/Actes_IAVH2/article/view/325/260
-- https://www-sciencedirect-com.accesdistant.sorbonne-universite.fr/science/article/pii/S1470160X22001248?via%3Dihub
+- Abibi, L. « Modélisation et simulation d’incendie de forêt par automate cellulaire ». Revue Marocaine des Sciences Agronomiques et Vétérinaires, vol. 1, no 2, 2013, p. 52‐63.
+- Wu, Zechuan, et al. « Simulation of Forest Fire Spread Based on Artificial Intelligence ». Ecological Indicators, vol. 136, mars 2022, p. 108653. ScienceDirect, https://doi.org/10.1016/j.ecolind.2022.108653
+- Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
