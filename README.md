@@ -213,6 +213,7 @@ Bien qu’on ai vu que la nature pouvait être la cause du déclenchement du feu
 - Abibi, L. « Modélisation et simulation d’incendie de forêt par automate cellulaire ». Revue Marocaine des Sciences Agronomiques et Vétérinaires, vol. 1, no 2, 2013, p. 52‐63. https://www.agrimaroc.org/index.php/Actes_IAVH2/article/view/325
 - Wu, Zechuan, et al. « Simulation of Forest Fire Spread Based on Artificial Intelligence ». Ecological Indicators, vol. 136, mars 2022, p. 108653. ScienceDirect, https://doi.org/10.1016/j.ecolind.2022.108653
 - Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+- D. MORVAN, A. LAMORLETTE « Effet de la teneur en eau sur la propagation d’un feu de surface à travers une strate de végétation homogène » http://documents.irevues.inist.fr/bitstream/handle/2042/52763/a_H834PX32.pdf;sequence=1?msclkid=2da3b51bbe8911ec8be2bcdab8811de3
 
 <br><br>
 
