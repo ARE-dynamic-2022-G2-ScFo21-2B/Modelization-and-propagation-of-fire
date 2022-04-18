@@ -114,11 +114,29 @@ A partir de nos modélisations, nous avons pu constater que :
 
 **Par conséquent, nous pouvons conclure que l'augmentation des facteurs naturels influe sur la propagation d'un feu de forêt.**
 
+Bien qu’on est vu que la nature pouvait être la cause du déclenchement du feu de forêt et favoriser sa propagation. Un facteur humain, peut également déclencher des feux de forêt. 
+
+
+Quelques règles à respecter pour éviter tous risque de feux de forêt : 
+- Ne faites ni feu ni barbecue aux abords des forêts et des espaces végétalisés.
+- Respecter les interdictions d’accès aux forêts en période de risques (sécheresse, vent fort…) ;
+- Bois de cheminée, peintures, fuel... n'entreposez pas de combustible contre la maison.
+- Ne fumez pas de cigarette en forêt, ou en pleine nature en période de sécheresse, et ne jetez pas votre mégot au sol ou par la fenêtre de la voiture.
+- Ne faites pas de travaux ou de petits bricolages sources d'étincelles (soudure, scie...) les jours de risque d'incendie (sécheresse, canicule, vent fort) à proximité de végétaux.
+
+
+Comme dans tout autre cas d’urgence, la première chose à faire est :  
+
+- Alerter les secours en composant le 18 ou le 112
+- Essayer de localiser le feu
+- Essayer d’éteindre le feu avec de la terre, du sable ou de l’eau sans se mettre en danger
+
 Pour prévenir ces incendies, nous pouvons par exemple :
 - Placer des capteurs permettant de mesurer les différents facteurs naturels : humidité, température, vent, ...
 - Informer en cas de variation anormale des facteurs naturels
 - Construire des bouches d'incendie près des forêts pour accélérer l'extinction du feu
 - Prévoir des distances de plantation entre les arbres
+- Placer des arrosoir automatique permettant de garder l'environnement humide  
 
 ### Markdown
 
