@@ -10,8 +10,6 @@
 
 <br>
 
-![Ceci est une image](https://upload.wikimedia.org/wikipedia/commons/d/d8/Deerfire_high_res_edit.jpg)
-
 <img src="https://qph.cf2.quoracdn.net/main-qimg-9beeb08dd2bbef7e953e276ba666417b" width=1010></img>
 
   Ces dernières années, le monde connaît de plus en plus de désastres naturels et
@@ -156,8 +154,10 @@ On observe que les carrés rouges (représentants le feu), se propagent maitenan
 
 **Interprétation quant à l'apparition des feux de forêts et les facteurs favorisant leur propagation:**
 
--Les données fournis par notre modélisation ainsi que les graphiques du nombre d'arbres brulés selon le taux d'humidité, nous permettent de dire que de hautes températures, qui influencent la sécheresse des arbres, favorisent l'apparition de feux de forêts et entrainent une plus grande propagation de ceux-ci.
-
+<p align="justify">
+Les données fournis par notre modélisation ainsi que les graphiques du nombre d'arbres brulés selon le taux d'humidité, nous permettent de dire que de hautes températures, qui influencent la sécheresse des arbres, favorisent l'apparition de feux de forêts et entrainent une plus grande propagation de ceux-ci.
+</p>
+  
 ### Conclusion :
 
 A partir de nos modélisations, nous avons pu constater que :
