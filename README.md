@@ -35,8 +35,8 @@ sauvées et de forêts préservées.
 ### Objectifs :
 - [X] Montrer que les facteurs météorologique influent sur la vitesse de propagation et la direction de propagation du feu de forêt.
 Modéliser cette propagation. Interpréter les données de la modélisation.
-- [ ] Comparer les résultats des modélisations avec et sans influence de la météo, de la densité et de l’humidité des arbres.
-- [ ] Interpréter graphiquement l’évolution du nombre d’arbres vivants, entrain de brûler et morts en fonction des paramètres.
+- [X] Comparer les résultats des modélisations avec et sans influence de la météo, de la densité et de l’humidité des arbres.
+- [X] Interpréter graphiquement l’évolution du nombre d’arbres vivants, entrain de brûler et morts en fonction des paramètres.
 - [X] Donner une argumentation quant à l’apparition des feux de forêts et les facteurs favorisant la propagation du feu.
 - [X] A partir de la modélisation, comprendre l’origine de la multiplication des feux de forêt.
 - [X] Proposer des solutions permettant de réduire les feux de forêt.
@@ -77,7 +77,19 @@ Alors que le vent aide à propager le feu, l'humidité agit contre le feu. L'hum
 
 ### Raisonnement et observation :
 
-Taille 100 Densité 50% 10 Expériences :
+<p float="left" align="justify">
+Pour programmer le vent, nous avons essayé que le feu se propage de la façon présente sur le schéma ci-dessous. Nous avons fait une seule direction de vent car comme la forêt est tirée aléatoirement, il n'y a pas de réel intérêt à faire plusieurs possibilités de directions. Nous avons donc choisit la direction de "haut en bas" sur l'animation. Nous avons donc ajouté un coefficient lié au vent à chaque case voisine de l'arbre en feu. Ainsi, plus le vent est élevé, plus la probabilité de brûler les arbres en sens inverse au vent est faible. De plus la probabilité de brûler les arbres voisins dans le sens du vent est augmenté. Le vent 3/4 face et 3/4  dos est aussi prit en compte. Enfin, nous avons ajouté la possibilité qu'un arbre qui brûle peut brûler un arbre situé à deux cases dans le sens du vent. En effet, dans la vraie vie, le vent peut pousser les braises et ainsi enflammer des arbres plus éloignés !
+</p>
+<p align="middle"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Propagation_model_wildfire_%28French%29.svg/800px-Propagation_model_wildfire_%28French%29.svg.png" width="300"></p>
+
+<p float="left" align="justify">
+Pour programmer l'humidité nous nous sommes aidé du graphique ci-joint. En effet, on remarque que l'humidité influence la durée de combustion d'un arbre en feu. Ainsi, nous avons approché la courbe du graphique par une fonction constitué de morceau de fonctions affines pour plus de précision. Ainsi, en fonction de la variable humidité choisit en entrée, nous définissant un nombre d'étape correspondant à la durée qu'un arbre commençant à brûler soit encore entrain de brûler. Ici tout est question de proportion et non de statistique exacte, nous avons donc décidé que 0.1s sur le graphique correspondrait à une étape sur l'animation et dans le programme.
+</p>
+<p align="middle"><img src="https://user-images.githubusercontent.com/66788498/163872701-2347d5d2-2878-41ab-97b8-339f014b4fce.png" width="300"></p>
+
+<br>
+
+Taille 100, Densité 50%, 10 Expériences :
 - Sans paramètre (1)
 - Force du vent à 60% (2)
 - Humidité à 60% (3)
@@ -87,7 +99,7 @@ Taille 100 Densité 50% 10 Expériences :
   <img src="https://user-images.githubusercontent.com/66788498/163865902-0b84aaae-c87b-40f5-a31a-5338f10cf248.png" width="285" /> 
 </p>
 
-Taille 100 Densité 80% 10 Expériences :
+Taille 100, Densité 80%, 10 Expériences :
 - Sans paramètre (1)
 - Force du vent à 60% (2)
 - Humidité à 60% (3)
