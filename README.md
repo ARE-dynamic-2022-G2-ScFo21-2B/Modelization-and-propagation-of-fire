@@ -11,14 +11,9 @@
 <br>
 
 <img src="https://qph.cf2.quoracdn.net/main-qimg-9beeb08dd2bbef7e953e276ba666417b" width=1010>
-
-  Ces dernières années, le monde connaît de plus en plus de désastres naturels et
-notamment des [feux de forêts](https://en.wikipedia.org/wiki/Wildfire). Nous savons déjà que cette augmentation est liée au
-réchauffement climatique, mais nous voulons savoir comment. Et plus précisément quels facteurs influent sur leur multiplication, leur intensité ou leur
-propagation. En effet, outre la prévention de ces feux, intervenir rapidement et efficacement est également synonyme de vies 
-sauvées et de forêts préservées. 
-
 <p align="justify">
+  Ces dernières années, le monde connaît de plus en plus de désastres naturels et notamment des <a href="https://en.wikipedia.org/wiki/Wildfire" target="blank">feux de forêts</a>. Nous savons déjà que cette augmentation est liée au réchauffement climatique, mais nous voulons savoir comment. Et plus précisément quels facteurs influent sur leur multiplication, leur intensité ou leur propagation. En effet, outre la prévention de ces feux, intervenir rapidement et efficacement est également synonyme de vies sauvées et de forêts préservées. 
+
  Pour cela, nous disposons d’un outil efficace et fiable qui pourrait nous permettre de modéliser et connaître l’influence de certains paramètres sur les feux et ainsi savoir lutter efficacement contre eux, c’est la modélisation informatique. 
 </p>
   
@@ -77,9 +72,11 @@ Alors que le vent aide à propager le feu, l'humidité agit contre le feu. L'hum
 
 ### Raisonnement et observation :
 
+<p align="justify">
 Pour modéliser notre forêt, nous allons considérer une forêt comme étant une liste de liste où chaque élément possédera des coordonnées (x,y)
 Nous allons utiliser la fonction random.choice de la bibliothèque Numpy pour créer une matrice contenant que des 0 et des 1 en fonction de la probabilité (ici densité)
-
+</p>
+  
 ```py
 def create_database(x,y,p):
     return np.random.choice([0,1],size=(x,y),p=[1-p,p]) #Créer une liste de liste de 1 et 0
@@ -97,9 +94,10 @@ Pour programmer l'humidité nous nous sommes aidé du graphique ci-joint. En eff
 </p>
 <p align="middle"><img src="https://user-images.githubusercontent.com/66788498/163872701-2347d5d2-2878-41ab-97b8-339f014b4fce.png" width="300"></p>
 
-
+<p align="justify">
 Pour animer ces étapes, nous avons programmer une fonction permettant d'ouvrir une fenêtre Pygame et de mettre-à-jour cette fenêtre en vérifiant le numéro associé au point de coordonnées (x,y)
-
+</p>
+  
 ```py
 def draw(screen,data):
     x=0 #Initialise le point de départ en haut à gauche
