@@ -78,9 +78,9 @@ Alors que le vent aide à propager le feu, l'humidité agit contre le feu. L'hum
 ### Raisonnement et observation :
 
 Taille 100 Densité 50% 10 Expériences :
-- Sans paramètre
-- Force du vent à 60%
-- Humidité à 60%
+- Sans paramètre (1)
+- Force du vent à 60% (2)
+- Humidité à 60% (3)
 <p float="left" align="middle">
   <img src="https://user-images.githubusercontent.com/66788498/163839664-cc3cfd1a-a407-4a55-ad47-e9482adbc225.png" width="300" />
   <img src="https://user-images.githubusercontent.com/66788498/163865759-0bfa1bf7-6634-4e2f-bb19-dabc8a7c9f54.png" width="300" />
@@ -88,9 +88,9 @@ Taille 100 Densité 50% 10 Expériences :
 </p>
 
 Taille 100 Densité 80% 10 Expériences :
-- Sans paramètre
-- Force du vent à 60%
-- Humidité à 60%
+- Sans paramètre (1)
+- Force du vent à 60% (2)
+- Humidité à 60% (3)
 <p float="left" align="middle">
   <img src="https://user-images.githubusercontent.com/66788498/163840203-faaee438-7c18-4844-8219-da44da3aa096.png" width="300" />
   <img src="https://user-images.githubusercontent.com/66788498/163840453-303d6361-ac9f-4fed-81d3-5a197a66f357.png" width="300" />
