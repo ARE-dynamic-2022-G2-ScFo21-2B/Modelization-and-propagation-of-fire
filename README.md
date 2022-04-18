@@ -1,7 +1,6 @@
 # **ARE Dynamic : Propagation d'un feu de forêt**
 
-
-**Membres du groupe :**
+### **Membres du groupe :**
 - Yanis **BAOUCHE** __(21107473)__
 - Rick **GAO** __(21110625)__
 - Lucas **CHIMIER** __(21103839)__
@@ -12,6 +11,8 @@
 <br>
 
 ![Ceci est une image](https://upload.wikimedia.org/wikipedia/commons/d/d8/Deerfire_high_res_edit.jpg)
+
+<img src="https://qph.cf2.quoracdn.net/main-qimg-9beeb08dd2bbef7e953e276ba666417b" width=1010></img>
 
   Ces dernières années, le monde connaît de plus en plus de désastres naturels et
 notamment des [feux de forêts](https://en.wikipedia.org/wiki/Wildfire). Nous savons déjà que cette augmentation est liée au
